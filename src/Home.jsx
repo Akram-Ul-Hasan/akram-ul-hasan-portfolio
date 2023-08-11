@@ -9,13 +9,13 @@ import { useEffect, useState } from "react";
 import HomeHeader from "./components/HomeHeader";
 
 const Home = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
-      setLoading(false);
-    }, 4000);
+      setLoading(false)
+    }, 2000);
   }, []);
 
   return (

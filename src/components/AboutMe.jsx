@@ -1,3 +1,4 @@
+import './AboutMe.css';
 
 const AboutMe = () => {
   return (
@@ -15,10 +16,11 @@ const AboutMe = () => {
               technologies to deliver efficient and user-friendly web solutions
             </p>
           </div>
-          <img
-            src="https://i.ibb.co/bRHpYFj/akram.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
+          <div className='wrapperImg'>
+            <div className='boxImg'>
+       
+            </div>
+          </div>
         </div>
       </div>
     </div>
