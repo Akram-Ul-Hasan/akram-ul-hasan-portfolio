@@ -1,7 +1,9 @@
+import SectionTitle from "./SectionTitle";
+
 const Skills = () => {
   return (
     <div className="my-10">
-      <h1 className="text-5xl m-5 text-center font-bold">Skills</h1>
+      <SectionTitle title={'Skills'}></SectionTitle>
       <div className="flex flex-col md:flex-row justify-center gap-16 bg-base-200 py-10">
         <div>
           <h3 className="text-3xl mb-3 font-bold">Front-end Skills</h3>

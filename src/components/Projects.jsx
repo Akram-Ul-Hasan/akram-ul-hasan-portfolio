@@ -1,9 +1,10 @@
 import { BsGithub } from "react-icons/bs";
+import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
     <div>
-      <h1 className="text-5xl m-5 text-center font-bold">My Projects</h1>
+      <SectionTitle title={'Projects'}></SectionTitle>
       <div className="bg-base-200 flex flex-col md:flex-row md:justify-center gap-10 py-10">
         <div className="card w-96 bg-base-100 shadow-xl">
           <div>

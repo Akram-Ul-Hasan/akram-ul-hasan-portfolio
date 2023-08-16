@@ -1,11 +1,12 @@
 import { MdEmail } from "react-icons/md";
 import { BsPhone } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
+import SectionTitle from "./SectionTitle";
 
 const Contact = () => {
   return (
     <div>
-      <h1 className="text-5xl m-5 text-center font-bold">Contact Me</h1>
+      <SectionTitle title={"Contact_Me"}></SectionTitle>
       <div className="w-full bg-base-200">
         <div className="flex flex-col md:flex-row ">
           <div className="text-center lg:text-left w-2/3 mx-10 my-10">
